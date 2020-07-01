@@ -1,0 +1,4 @@
+---
+# vars file for send_email
+pri: "[ 'um', 'impar' ]"
+sec: "[ 'dois', 'par' ]"

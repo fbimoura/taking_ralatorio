@@ -3,6 +3,7 @@
 - name: Gera arquivo de log
   blockinfile:
     path: /home/ansible/relatorio
+    create: yes
     block: |
       Nome do servidor: "{{ resultado_nome }}"
       Endereço IPV4: "{{ resultado_address }}"

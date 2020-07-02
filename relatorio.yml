@@ -1,0 +1,6 @@
+---
+- name: Recuperando nome dos servidores
+  hosts: all
+
+  roles:
+    - relatorio

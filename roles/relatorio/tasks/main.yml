@@ -5,5 +5,5 @@
     path: /home/ansible/relatorio
     create: yes
     block: |
-      Endereço IPV4: "{{ resultado_address }}" 
-      Resposta de Ping: "{{ resultado }}" 
+      Endereço IPV4: {{ resultado_address }}
+      Resposta de Ping: {{ resultado }}

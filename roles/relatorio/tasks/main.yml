@@ -2,7 +2,7 @@
 # tasks file for send_log
 - name: Debugging
   debug:
-    var: database_password
+    var: database_username
     
 - name: Gera arquivo de log
   blockinfile:
